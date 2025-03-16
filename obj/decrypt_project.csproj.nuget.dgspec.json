@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/dojokasi/Masaüstü/MalwareEvasion/reverseengineering/decrypt_project/decrypt_project.csproj": {}
+  },
+  "projects": {
+    "/home/dojokasi/Masaüstü/MalwareEvasion/reverseengineering/decrypt_project/decrypt_project.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/dojokasi/Masaüstü/MalwareEvasion/reverseengineering/decrypt_project/decrypt_project.csproj",
+        "projectName": "decrypt_project",
+        "projectPath": "/home/dojokasi/Masaüstü/MalwareEvasion/reverseengineering/decrypt_project/decrypt_project.csproj",
+        "packagesPath": "/home/dojokasi/.nuget/packages/",
+        "outputPath": "/home/dojokasi/Masaüstü/MalwareEvasion/reverseengineering/decrypt_project/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/dojokasi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "System.Security.Cryptography.Algorithms": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "System.Security.Cryptography.Cng": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.2, 9.0.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
